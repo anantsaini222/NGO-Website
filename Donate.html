@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width">
+    <title>flexacare NGO Corporation</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="styledonate.css"> 
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.css">
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        .container h1{
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .container p{
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header-wall">
+<!-----Header------>    
+<section class="header">
+        <nav>
+            <img src="images/greenleaves.png" style="padding-top: 20px;"></a>
+            <div class="navl">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="AboutUs.html">ABOUT US</a></li>
+                        <li><a href="Events.html">EVENTS</a></li>
+                        <li><a href="Cause.html">CAUSE</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="ContactUs.html">CONTACT US</a></li>
+                        <li><a href="Donate.html">DONATE</a></li>
+                    </ul>
+            </div>
+        </nav>
+</section>
+
+<!-----Action------>
+<section class="action" style="margin-left: 180px; ">
+        <h1 style="font-weight: bold;font-size: 60px;"></h1>
+</section>
+</div>
+
+
+<!------Container-------->
+<div class="container">
+    <div class="card">
+        <div class="inner-box">
+            <div class="card-front">
+                <a href="index.html"> <h2 >Secure Donation</h2></a><br/>
+                <div class="depo">
+                    <label for="deposite" style="font-size: 21px;">Enter amount to be deposited</label>
+                    <input type="number" class="input-box" id="input1" name="deposite">
+                    <input type="submit"  class="input-box1" name="deposite" onclick="bank.deposite()" value="Deposite">
+                    <label id="dis1"></label>
+                </div><br/>
+                <div class="withd">
+                    <label for="withdrawl"  style="font-size: 21px;">Enter amount to be withdrawl</label>
+                    <input type="number" class="input-box"  id="input2"name="withdrawl">
+                    <input  type="submit" class="input-box1" name="withdrawl" onclick="bank.withdrawl()" value="Withdraw">
+                    <label for="wid" id="dis2"></label>
+                </div><br/><br/><br/>
+                <div class="bal">
+                    <input class="input-box2" type="submit" onclick="bank.current()" value="Current Balance">
+                    <br>
+                    <label for="wid" id="dis3" ></label>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+<!-----Action1------>
+<section class="action1">
+    <div class="heading">
+        <h1  style="font-weight: 550;font-size: 35px;">Subscribe to Newsletter</h1>
+        <p style="font-size: 17px;">Sed do eiusmod tempor incididunt ut laboret dolore magna aliqua enim nostrud</p>    
+    </div>
+   
+    <div class="subscribe-form_col-lg-4">
+        <form method="post" action="">
+            <div class="form-group">
+                <input type="email" name="email" value="" placeholder="Your email ........" required="">
+                <button type="submit" class="theme-btn">Submit</button>
+            </div>
+        </form>
+    </div>
+</section>
+
+<!-----Footer----->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adiscing elit.<br/>
+        Pellesntesque aliquet turpis nulla, eleuifend 
+        faucibus.</p>
+        <div class="icon-last">
+            <embed src="images/facebook-3-16.png" />
+            <embed src="images/insta.png" />
+            <embed src="images/twit.png" />
+            <embed src="images/snapchat.png" />
+        </div>
+        <p>Made with <span> flexncode © </span> Tutorials</p>
+</section>
+</body>
+</html>

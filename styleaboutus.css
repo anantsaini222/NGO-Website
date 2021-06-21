@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header-wall{
+    background-image: linear-gradient( rgba(4,9,30,0.7),rgba(4,9,30,0.3)),
+    url(images/bg13.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 35vh;
+}
+nav{
+    display:flex;
+    padding: 20px 20px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background-image: linear-gradient(rgba(2, 7, 29, 0.9),rgba(4,9,30,0));
+}
+nav img{
+    width: 200px;
+}
+.nav-links{
+    flex:1;
+    text-align:right;
+}
+.nav-links ul li{
+    list-style: none;
+    display:inline-block;
+    padding:4px 12px;
+    position: relative;
+    border-radius: 15px;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+}
+.nav-links ul li::after{
+    content:'';
+    width: 0%;
+    height: 2px;
+    background: #8de726;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width:100%;
+}
+span{
+    color: #8de726;
+}
+
+/*---------Action--------*/
+.action{
+    margin: 0px;
+    width: 80%;
+    text-align: center;
+    padding: 70px 190px;
+}
+.action p1{
+    color: #fff;
+    margin-bottom: 0px;
+    padding: 0;
+    font-size: 20px;
+}
+.action h1{
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 0;
+    font-size: 50px;
+}
+
+/*---------About Detail--------*/
+.ab-detail{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    text-align: center;
+    background: rgb(236, 236, 236);
+}
+.ab-detail h4{
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+}
+.ab-detail h1{
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    font-size: 40px;
+}
+.ab-detail p{
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    color: rgb(110, 102, 102);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    padding: 10px;
+}
+.author{
+    padding-top: 15px;
+    position: relative;
+    text-align: center;
+}
+.image img{
+    height: 80px;
+    margin-top: 0px;
+    margin-left: 5px;
+    margin-right:10px;
+    border-radius: 50%;    
+}
+
+.sign img{
+    height: 50px;
+    margin-top: 0px;
+    margin-left: 5px;
+    margin-right:10px;
+    border-radius: 50%;
+}
+
+/*--------facilities--------*/
+.facilities{
+    width:80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+.facilities-col{
+    flex-basis: 25%;
+    border-radius:10px;
+    margin-bottom: 5%;
+    text-align: left;
+    display: inline;
+}
+.facilities h1{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: -20px;
+}
+.facilities-col img{
+    width:15%;
+    border-radius: 10px;
+    margin-right: 60px;
+}
+.facilities p{
+    padding: 60px;
+ }
+
+/*---------Action1--------*/
+.action1{
+    margin: 0px auto;
+    width:80%;
+    background-image: linear-gradient( rgba(107, 173, 32, 0.9),rgba(107, 173, 32, 0.9)),
+    url(images/imresizer\ \(5\).jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 40px 190px;
+    display:inline-flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.heading{
+    color: #fff;
+    margin-bottom: 2px;
+}
+.subscribe-form_col-lg-4{
+    text-align:right;
+    padding:0px 0px;  
+    position: relative; 
+    display: flex;
+}
+
+.theme-btn{
+    width:100px;
+    padding: 12px;
+    background: transparent;
+    border: 2px solid #fff;;
+    font-size: 20px;
+    color: #fff;
+}
+.action1 input {
+    display: inline;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: left;
+    margin-right: 5px;
+    cursor: pointer;
+    width: 300px;
+    padding: 15px;
+    cursor: pointer;
+    border: 2px solid #fff;
+    background: transparent;
+  }
+
+/*-----Footer-----*/
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    background: rgb(10, 9, 9);
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+    color: #fff;
+    font-size: 25px;
+    padding:5px;
+}
+.footer p{
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 16px;
+}
+.footer .icon-last{
+    display: inline-block;
+}
+.footer .icon-last embed{
+    padding-left: 10px;
+    width: 20px;
+}
